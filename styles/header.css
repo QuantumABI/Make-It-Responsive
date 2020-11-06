@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 .nav li a:hover {
-  color: #b52435;
+  color: #75daff;
 }
 
 @media all and (max-width: 600px) {

@@ -1,0 +1,28 @@
+/* Table styling */
+
+table {
+  margin-top: 30px;
+  width: 100%;
+  border-spacing: 10px;
+  /* overflow-x: auto; */
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+}
+
+td:nth-child(1),
+tr:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #fad0c9ff;
+}
