@@ -1,0 +1,66 @@
+footer h2 {
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: center;
+}
+
+.container .box {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 15px 15px;
+  background: #dedede;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.container .box .icon {
+  width: 100%;
+  height: 100%;
+  background: #dedede;
+  transition: 0.5s;
+}
+
+.container .box .icon img {
+  max-width: 65%;
+  margin-top: 20px;
+}
+
+.container .box:hover .icon {
+  transform: scale(0);
+}
+
+.container .box .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fad0c9ff;
+  transition: 0.5s;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.container .box:hover .details {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.container .box .details h3 {
+  margin-top: 5em;
+  font-size: 24px;
+  color: black;
+}
