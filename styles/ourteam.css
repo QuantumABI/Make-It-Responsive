@@ -9,7 +9,7 @@
 .container-team {
   padding: 0 40px;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   margin-bottom: 50px;
 }
@@ -30,7 +30,7 @@
 }
 
 .card .img {
-  height: 200px;
+  height: auto;
   width: 100%;
 }
 
@@ -91,13 +91,13 @@
   transform: scale(0.9);
 }
 
-@media screen and (max-width: 978px) {
+@media screen and (max-width: 900px) {
   .container-team {
-    flex-wrap: wrap;
+    align-items: center;
     flex-direction: column;
   }
   .container-team .card {
-    max-width: 600px;
+    max-width: auto;
     margin: 20px 0;
   }
 }

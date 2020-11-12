@@ -27,14 +27,13 @@ table th,
 table td {
   padding: 1.2em;
   text-align: center;
-  border: 2px solid rgb(199, 197, 197);
+  border: 2px solid #ddd;
 }
 
 table th {
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  background-color: #fad0c9ff;
 }
 
 @media screen and (max-width: 1025px) {
@@ -82,7 +81,6 @@ table th {
 }
 
 table td:first-child {
-  background-color: #fad0c9ff;
   font-size: 18px;
   font-weight: bold;
 }
